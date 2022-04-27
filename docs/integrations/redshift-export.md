@@ -14,6 +14,13 @@ To set up a recurring export of your Amplitude data to Redshift, follow these st
 !!!note
 
     You will need admin privileges in Amplitude, as well as a role that allows you to enable resources in Redshift.
+    
+!!!note
+
+Depending on your company's network policy, you may need to add the following IP addresses to your allowlist to allow Amplitude's servers to access your Redshift instance:
+* 52.33.3.219
+* 35.162.216.242
+* 52.27.10.221
 
 1. Navigate to the *Data Destinations* page from the bottom of the left side panel.
 2. CLick **View all Destinations**, click the Redshift panel.
